@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  
+	<servlet>
+		<servlet-name>GaeDataStore</servlet-name>
+		<servlet-class>com.fbgae.FbGaeDataStoreServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GaeDataStore</servlet-name>
+		<url-pattern>/GaeDataStore</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>friendstweet</servlet-name>
+		<jsp-file>friends.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>friendstweet</servlet-name>
+		<url-pattern>/friends</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LinkedTweet</servlet-name>
+		<jsp-file>LinkedTweet.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LinkedTweet</servlet-name>
+		<url-pattern>/LinkedTweet</url-pattern>
+	</servlet-mapping> 
+	
+	
+
+
+	<servlet>
+		<servlet-name>toptweet</servlet-name>
+		<jsp-file>topTweets.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>toptweet</servlet-name>
+		<url-pattern>/toptweet</url-pattern>
+	</servlet-mapping> 
+
+
+	<servlet>
+		<servlet-name>tweet</servlet-name>
+		<jsp-file>tweet.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>tweet</servlet-name>
+		<url-pattern>/tweet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<jsp-file>index.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping> 
+  
+
+  <welcome-file-list>
+    <welcome-file>tweet.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

@@ -1,0 +1,131 @@
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #A9A9A9;
+  font-family: "Times New Roman"
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #696969;
+}
+
+.topnav a.active {
+    background-color: #0000ff;
+    color: #808080;
+}
+
+.button {
+    background-color: #6A5ACD;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 254px;
+    margin: -20px -50px; 
+    top:50%; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*TextArea*/
+.textarea {
+    margin: 0px; 
+    height: 60px; 
+    width: 250px; 
+    padding: 10px 42px 58px 20px;
+    z-index: auto; 
+    position: relative; 
+    line-height: BOLD; 
+    font-size: 14px; 
+    transition: none; 
+    background: transparent !important;
+    
+}
+
+/*Top tweets table*/
+#top_tweets {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#top_tweets td, #top_tweets th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#top_tweets tr{background-color: #f2f2f2;}
+#top_tweets tr:hover {background-color: #ddd;}
+
+#top_tweets th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6A5ACD;
+  color: white;
+}
+
+/*My tweets table*/
+#my_tweets {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#my_tweets td, #my_tweets th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#my_tweets tr{background-color: #f2f2f2;}
+#my_tweets tr:hover {background-color: #ddd;}
+
+#my_tweets th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6A5ACD;
+  color: white;
+}
+
+
+/*Friends tweets table*/
+#friends_tweets {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#friends_tweets td, #friends_tweets th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#friends_tweets tr{background-color: #f2f2f2;}
+#friends_tweets tr:hover {background-color: #ddd;}
+
+#friends_tweets th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6A5ACD;
+  color: white;
+}
+
+
